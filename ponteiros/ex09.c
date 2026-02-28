@@ -1,5 +1,4 @@
-/* 1) Mostre todos os passos (teste de mesa) do programa abaixo e identifique o que é impresso pelo programa.
-*/
+/* 1) Mostre todos os passos (teste de mesa) do programa abaixo e identifique o que é impresso pelo programa. */
 #include <stdio.h>
 
 void func (int *px, int *py) { /* *px = &x, *py = &y */

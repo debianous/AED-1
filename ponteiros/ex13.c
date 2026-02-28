@@ -37,7 +37,7 @@ int main (void) {
     puts("### VETOR DINAMICO COM CALLOC");
     int *vHeap = (int *) calloc(5, sizeof(int));
     for (int i = 0; i < 5; i++) {
-        vHeap[i] = i * 100; // se diferencia do vetor estático
+        vHeap[i] = i * 100; // se diferencia dos valores do vetor estático
     }
 
     imprimeVetor(vHeap, 5);
